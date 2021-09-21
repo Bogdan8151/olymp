@@ -1,0 +1,325 @@
+
+body{
+	background-color: #f9f9f9;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	/*font-family: 'Contrail One', cursive;*/
+	
+}
+
+*,
+*:before,
+*:after:{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+opacity: .9;
+}
+
+
+p{
+	margin: 0 0 10px 0;
+}
+
+.top{
+	height: 100px;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.nap{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+.top_all{ 
+	align-items: center;
+	padding: 35px 0;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ffff;
+}
+
+.upr{
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.upr: first-child{
+	margin-left: 0;
+}
+.nav{
+	margin: 0 0 0 50px;
+	color: #ffff;
+	text-decoration: none;
+	opacity: .9;
+	transition: opacity .1s linear;
+
+}
+
+.nav:hover{
+	opacity: 1;
+	text-decoration: underline 3px solid #d15f43;
+
+}
+
+.tp_pn{
+}
+
+.bgt{
+	height: 500px;
+	padding-top: 0px;
+	background-color: #37576b;
+	width: 100%;
+	z-index: 99;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.lv{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	color: #ffff;
+	text-decoration: none;
+	opacity: .75;
+	transition: opacity .1s linear;
+}
+
+.bgt_title{
+	margin: 0;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #ffff;
+
+	
+
+}
+
+.in_nap{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+
+.pid{
+	display: flex;
+	justify-content: left;
+	font-size: 15px;
+	padding: 18px 0 0 0;
+	color:#aeb4b5;
+	text-transform: uppercase;
+}
+
+
+
+.lkbut{	
+	color:#aeb4b5;
+	text-transform: uppercase;
+	align-content: left	;
+	font-weight: 600;
+	padding-top: 20px;
+
+}
+
+.crt{
+	padding: 50px 0 100px 0;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.crt img{
+
+	height: 250px;
+	border: 5px solid #d15f43;
+}
+
+
+.inf2{
+	width: 100%;
+	background-color: 	#37576b;
+	height: 400px;
+	padding: auto;
+	display: flex;
+	justify-items: center;
+}
+
+
+.inf3{
+	text-align: justify;
+	font-size: 25px;
+	color: #ffff;
+	width: 100%;
+	max-width: 1170px;
+	margin: auto;
+}
+
+.inf4{
+	display: block;
+	text-align: justify;
+	height: 230px;
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+.glov{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1170px;
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+}
+
+.inf4_inf{
+	max-height: 250px;
+	width: 100%;
+	font-size: 25px;
+	padding: 0 0 0 50px;
+}
+.inf4_pic{
+	border-radius: 10px;
+	height: 280px;
+
+}
+.uk1{
+	font-size: 35px;
+	color: #d15f43;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 70px 0 10px 0;
+}
+
+.footer1{
+	font-size: 20px;
+	max-width: 1170px;
+	margin: 100px 0 0 0;
+	height: 50px;
+	margin: 0 auto;
+	color: #f9f9f9;
+	padding: 50px;
+}
+
+table {
+padding: 0px 0 50px 0;
+display: flex;
+align-items: center;
+font-size: 20px;
+border-collapse: collapse;
+text-align: center;
+}
+th, td:first-child {
+background: #AFCDE7;
+color: white;
+padding: 18px 30px;
+}
+th, td {
+
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}	
+td {
+background: #D8E6F3;
+
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+
+.sp{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.ts_bg{
+	background-color: #fff;
+	padding: 70px 0;
+	display: flex;
+	justify-content: center;
+	opacity: .9;
+}
+
+
+.tstx{
+	color: #000;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 25px;
+	opacity: .7;
+}
+
+.inf1_tal{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.inf1_tal{
+	display: block;
+	text-align: justify;
+	
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-betwee;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.ts_inf{
+	width: 80%;
+	font-size: 25px;
+	padding: 0 0 0 100px;
+	color: white;
+	opacity: .9;
+}
+.ts1{
+	border-radius: 10px;
+	height: 300px;
+
+}
+
+.tlbg{
+	height: 450px;
+	width: 100%;
+	background-color:#37576b ;
+}
+
+.glov{
+	width: 100%;
+	height: 350px;
+}
+
+.tlbg2{
+	height: 400px;
+	width: 100%;
+	background-color:#37576b ;
+}
+
